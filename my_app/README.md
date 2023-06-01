@@ -1,16 +1,42 @@
-# my_app
+# 📝 การติดตั้งแอปพลิเคชัน
 
-A new Flutter project.
+## 📌 สิ่งที่จำเป็น
+1. `python`
+2. `flutter`
+3. `nodeJS` 
+4. `android emulation`
 
-## Getting Started
+![](https://i.imgur.com/waxVImv.png)
 
-This project is a starting point for a Flutter application.
+## 🔍 ขั้นตอนการดาวน์โหลดซอร์สโค้ด
 
-A few resources to get you started if this is your first Flutter project:
+### 🔸 git Cloning  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Cloning แอปพลิเคชัน
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        git clone https://github.com/Kanokpol2543/403.git
+
+2. เข้าไปยังแอปพลิเคชัน
+
+        cd my_app
+
+![](https://i.imgur.com/waxVImv.png)
+
+## ⚙️ ขั้นตอนการติดตั้งแอปพลิเคชัน
+
+1. ดาวน์โหลดส่วนของเซิร์ฟเวอร์ลงในที่อยู่ของแอปพลิจากที่อยู่ลิงค์ https://tuipied-my.sharepoint.com/:f:/g/personal/kanokpol_sae_dome_tu_ac_th/EvLsUYidq4JLlkNK1icX95sBbT29wef4hq5ivv7c6HO_wA?e=pXInGG
+2. ทำการแตกไฟล์ `zip` แล้วคัดลอกโฟล์เดอร์ server ไปยังที่อยู่ของแอปพลิเคชัน
+3. ติดตั้ง `Package` ที่จำเป็น
+        cd server/requirement
+        pip install -r requirements.txt
+        pip install -r pythonPack.txt
+
+4. เปิดใช้งานเซิร์ฟเวอร์
+        cd server
+        npm run dev
+5. เปิดใช้งานโปรแกรมจำลอง android emulator 
+6. รันแอปพลิเคชัน
+        cd <ที่อยู่ของแอปพลิเคชัน> 
+        flutter run
+
+![](https://i.imgur.com/waxVImv.png)

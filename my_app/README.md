@@ -44,7 +44,7 @@
         
         flutter doctor -v
         
-        pub dev
+        flutter pub get
 
 6. เปิดใช้งานโปรแกรมจำลอง `android emulator` 
 7. รันแอปพลิเคชัน

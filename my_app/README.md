@@ -39,8 +39,18 @@
         cd server
  
         npm run dev
-5. เปิดใช้งานโปรแกรมจำลอง android emulator 
-6. รันแอปพลิเคชัน
+        
+5. ติดตั้งติดตั้ง `Package` ที่จำเป็นสำหรับแอปพลิเคชัน
+        
+        flutter doctor -v
+        
+        pub dev
+
+7. เปิดใช้งานโปรแกรมจำลอง android emulator 
+
+        pub dev
+
+7. รันแอปพลิเคชัน
 
         cd <ที่อยู่ของแอปพลิเคชัน> 
         

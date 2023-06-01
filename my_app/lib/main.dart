@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
   var image;
   String prediction = "";
 
-  final String serverUrl = 'http://192.168.1.145:3000';
+  final String serverUrl = 'http://10.0.2.2:3000';
 
   Future<String> classifyImamge(File image) async {
     var stream = new http.ByteStream(image.openRead());

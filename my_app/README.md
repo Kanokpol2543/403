@@ -1,3 +1,39 @@
+myapp
+├── .dart_tool
+├── android
+├── assets
+│   └── chilies.jpg
+├── build
+├── ios
+├── lib
+│   └── main.dart
+├── linux
+├── macos
+├── server
+│   ├── node_modules
+│   ├── requirment
+│   │   ├── requirements.txt
+│   │   └── pythonPack.txt
+│   ├── app.js
+│   ├── label.txt
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── system.py
+│   ├── VGG-16_weigths.h5
+│   ├── VGG-16.h5
+│   └── yoloV5x.pt
+├── test
+├── web
+├── windows
+├── .flutter-plugins
+├── .flutter-plugins-dependencies
+├── .gitignore
+├── .gitignore
+├── analysis_options.yaml
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md
+
 # 📝 การติดตั้งแอปพลิเคชัน
 
 ## 📌 สิ่งที่จำเป็น

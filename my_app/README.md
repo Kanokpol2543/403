@@ -32,11 +32,15 @@
         pip install -r pythonPack.txt
 
 4. เปิดใช้งานเซิร์ฟเวอร์
+
         cd server
+ 
         npm run dev
 5. เปิดใช้งานโปรแกรมจำลอง android emulator 
 6. รันแอปพลิเคชัน
+
         cd <ที่อยู่ของแอปพลิเคชัน> 
+        
         flutter run
 
 ![](https://i.imgur.com/waxVImv.png)

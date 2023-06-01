@@ -27,8 +27,11 @@
 1. ดาวน์โหลดส่วนของเซิร์ฟเวอร์ลงในที่อยู่ของแอปพลิจากที่อยู่ลิงค์ https://tuipied-my.sharepoint.com/:f:/g/personal/kanokpol_sae_dome_tu_ac_th/EvLsUYidq4JLlkNK1icX95sBbT29wef4hq5ivv7c6HO_wA?e=pXInGG
 2. ทำการแตกไฟล์ `zip` แล้วคัดลอกโฟล์เดอร์ server ไปยังที่อยู่ของแอปพลิเคชัน
 3. ติดตั้ง `Package` ที่จำเป็น
+
         cd server/requirement
+      
         pip install -r requirements.txt
+        
         pip install -r pythonPack.txt
 
 4. เปิดใช้งานเซิร์ฟเวอร์
